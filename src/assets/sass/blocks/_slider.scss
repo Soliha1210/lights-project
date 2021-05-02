@@ -1,0 +1,204 @@
+.slider{
+    .container{
+        .slider_big{
+            display: flex;
+            .slider_left{    
+                margin-top: 109px;     
+                .slider_title{
+                    font-size: 36px;
+                    font-family: 'meb';
+                    color:$grey;   
+                    .lights{
+                        color:$yellow;
+                    }
+                }
+                .slider_text{
+                    font-size: 14px;
+                    font-family: 'mr';
+                    color:$grey;
+                    line-height: 22px;
+                    width:485px;
+                    margin-top: 8px;
+                }
+                .btn{
+                    height:44px;
+                    width:197px;
+                    background-color: $yellow;
+                    color:$grey;
+                    font-size: 14px;
+                    font-family: 'mb';
+                    border-radius: 4px;
+                    border:0;
+                    margin-top: 21px;
+                    &:focus{
+                        outline: 0;
+                    }
+                }
+            }
+            .slider_right{
+                margin-left: 71px;               
+                .slider_right--img{
+                    .slider_img{
+                        img{
+                            height:448px;
+                            width:969px;
+                        }                     
+                    }                   
+                }
+            }
+        }
+    }
+}
+.catalog{
+    .container{
+        .catalog_big{
+            position: relative;
+            padding-left: 15px;
+            font-size: 30px;
+            font-family: 'meb';
+            color:$grey;
+            margin-top: 88px;
+            span{
+                width:5px;
+                height:25px;
+                background-color: $yellow;
+                position: absolute;
+                margin-right:15px;
+                left:0;
+                display:inline-block;
+                top:5px;
+            }
+        }
+        .row{
+            margin-top: 64px;
+            display: flex;
+            padding-top: 10px;
+            .col-3{
+                max-width: 25%;
+                width:25%;
+                flex-basis: 25%;
+                
+                .catalog_title{
+                    color: $grey;
+                    font-size: 16px;
+                    font-family: 'mb';
+                    text-decoration: none;
+                    &:hover{
+                        color:$yellow; 
+                    }
+                }
+                .catalog_text{
+                    font-size: 14px;
+                    font-family: 'mr';
+                    color: $grey;
+                    line-height: 22px;
+                    // width:284px;
+                    margin-top: 11px;
+                }
+                .cat_btn{
+                    width:280px;
+                    height:44px;
+                    background-color: $blue;
+                    border:0;
+                    border-radius: 2px;
+                    font-size: 14px;
+                    font-family: 'mb';
+                    color:white;
+                    margin-top: 25px;
+                    &:focus{
+                        outline: 0;
+                    }
+                    &:hover{
+                        cursor:pointer;
+                    }
+                }
+                .catalog_menu{
+                    margin-top: 65px;
+                    .text_menu{
+                        font-size: 14px;
+                        font-family: 'mb';
+                        color: $grey;
+                        text-decoration: none;
+                        padding-top: 19px; 
+                        padding-bottom: 16px;
+                        border-bottom:  1px solid #EFEFEF;
+                        display: inline-block;
+                        a{
+                            margin-top: 10px;
+                            
+                        }
+                        &:hover{
+                            color:$yellow;
+                        }
+                    }
+                }                
+            }
+           
+            .col-3{
+                flex-basis:25%;
+                max-width:25%;
+                padding:10px;
+                .pic{
+                    height:518px;
+                    margin-left: 18px;
+                    position: relative;
+                    .pic_btn{
+                        width:196px;
+                        height:38px;
+                        background-color: white;
+                        position: absolute;
+                        bottom:0;
+                        border-radius: 0px 0px 2px 2px;
+                        border:1px solid #F1F1F1;
+                        font-size: 14px;
+                        font-family: 'msb';
+                    }
+                }
+            }
+            .col-3{
+                flex-basis:25%;
+                padding:10px;
+                max-width:25%;
+                
+                .pic2{
+                    height:243px;
+                    position: relative;
+                    &.mb {
+                        margin-bottom: 30px;
+                    }
+                    .pic_btn{
+                        width:196px;
+                        height:38px;
+                        background-color: white;
+                        position: absolute;
+                        bottom:0;
+                        border-radius: 0px 0px 2px 2px;
+                        border:1px solid #F1F1F1;
+                        font-size: 14px;
+                        font-family: 'msb';
+                    }
+                }
+            }
+            .col-3{
+                flex-basis:25%;
+                padding:10px;
+                max-width:25%;
+                .pic3{
+                    height:518px;
+                    position: relative;
+                    .pic_btn{
+                        width:196px;
+                        height:38px;
+                        background-color: white;
+                        position: absolute;
+                        bottom:0;
+                        border-radius: 0px 0px 2px 2px;
+                        border:1px solid #F1F1F1;
+                        font-size: 14px;
+                        font-family: 'msb';
+                    }
+                }
+            }                 
+        }
+    }
+}

@@ -1,0 +1,219 @@
+.basket{
+    .basket_li{
+        height:49px;
+        background-color: white;
+        .container{
+            .basket_menu{
+                .breadcrumbs{
+                    display: flex;
+                    .item{
+                        font-size: 12px;
+                        font-family: 'mm';
+                        list-style-type: none;
+                        margin-top: 10px;
+                        color:#7C7C7C;
+                        &:last-child:after{
+                            content:'';
+                        }
+                        .link{
+                        text-decoration: none;
+                        }
+                        &:after{
+                            content: '-';
+                            margin-left: 4px;
+                            margin-right: 4px;
+                        }
+                    } 
+                }
+            }  
+        }    
+    }
+    .basket_top{
+        .container{
+            .basket_selection{
+                .selection_title{
+                    margin-top: 39px;
+                    font-size: 24px;
+                    font-family: 'mb';
+                    color:$grey;
+                }
+                .selection_table{
+                    table{
+                        margin-top:38px;                        
+                        
+                        .tr{
+                            
+                            height:175px;
+                            
+                            &:hover{
+                                background-color: white;
+                                box-shadow: 0px 0px 30px rgba(255, 201, 79, 0.3);
+                                height:175px;
+                            }
+
+                            th{
+                                font-size: 14px;
+                                font-family: 'mm';
+                                color:black;
+                                text-align: left;                               
+                            }
+                            td{
+                                font-size: 16px;
+                                font-family: 'mb';
+                                color:$grey;
+                                text-align: center;
+                                width:328px;
+                                border-bottom: 1px solid #E5E5E5;
+                                &:nth-child(2){
+                                    text-align: left;
+                                }
+                                
+                                .td_text{
+                                    font-size: 14px;
+                                    font-family: 'mr';
+                                    color:#505050;
+                                    width:332px;
+                                    margin-top: 17px;
+                                }
+                                .df{
+                                    display: flex;
+                                    padding-top: 17px;
+                                    justify-content: center;
+                                    .td_t{
+                                        font-size: 14px;
+                                        font-family: 'mr';
+                                        color:#505050;
+                                        border-right: 1px solid #E5E5E5;
+                                        padding-right: 20px;
+                                
+                                    }
+                                    .td_t2{
+                                        font-size: 14px;
+                                        font-family: 'mr';
+                                        color:#505050;
+                                        padding-left: 18px;
+                                        
+
+                                    }
+                                }
+                                .btn{
+                                    display: flex;
+                                    justify-content: center;
+                                    .minus{
+                                        width:24px;
+                                        height:25px;
+                                        background-color: $blue;
+                                        color:white;
+                                        border-radius: 2px 0px 0px 2px;
+                                        &:focus{
+                                            outline: 0;
+                                        }
+                                    }
+                                    .num{
+                                        height: 25px;
+                                        width: 24px;
+                                    }
+                                    .plus{
+                                        width:24px;
+                                        height:25px;
+                                        background-color: $blue;
+                                        color:white;
+                                        border-radius: 0px 2px 2px 0px;
+                                        &:focus{
+                                            outline: 0;
+                                        }
+                                    }
+                                }
+                                .text{
+                                    font-size: 12px;
+                                    font-family: 'mr';
+                                    margin-top: 15px;
+                                }
+                                .price{
+                                    font-size: 14px;
+                                    font-family: 'mb';
+                                    color:$grey;
+                                    text-align: center;
+                                    img{
+                                        width:8px;
+                                        height:9px;
+                                    }
+                                }
+                                .del{
+                                    font-size: 14px;
+                                    font-family: 'mb';
+                                    color:#5D5D5D;
+                                    text-align: center;
+                                    &:hover{
+                                        color:$yellow;
+                                    }
+    
+                                    .delete{
+                                        font-size: 17px;
+                                        font-family: 'mb';
+                                        color:#5D5D5D;
+                                        border:0;
+                                        background-color: unset;
+                                        margin-right: 10px;
+                                        &:focus{
+                                            outline: 0;
+                                        }
+                                        &:hover{
+                                            color: $yellow;
+                                        }
+    
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .selection_buy{
+                    display: flex;
+                    margin-top: 31px;
+                    .buy_img{
+                        margin-right: 8px;
+                    }
+                    .buy_text{
+                        font-size: 14px;
+                        font-family: 'mb';
+                        color:$grey;
+                    }
+                    .buy_all{
+                        font-size: 14px;
+                        font-family: 'mb';
+                        color:$grey;
+                        margin-left: 863px;
+                        img{
+                            width:8px;
+                            height:9px;
+                        }
+                    }
+                }
+                .selection_btn{  
+                    
+                    .button{
+                        width:313px;
+                        height:44px;
+                        border: 1px solid $blue;
+                        background-color: white;
+                        border-radius: 2px;
+                        margin-top: 17px;
+                        margin-right: 16px;
+                        font-size: 14px;
+                        font-family: 'mm';
+                        color: $blue;
+                        &:hover{
+                            background-color: $yellow;
+                            font-family: 'mb';
+                            border:0;
+                        }
+                        &:focus{
+                            outline: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

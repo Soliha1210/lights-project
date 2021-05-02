@@ -1,0 +1,71 @@
+.header {
+	background-color: $darkblue;
+	height: 70px;
+
+	.container {
+		.header_top {
+			display: flex;
+
+			.menu_btn {
+				display: none;
+			}
+
+			.menu {
+				display: flex;
+				list-style-type: none;
+				margin-left: 84px;
+				margin-top: 26px;
+
+				.link {
+					text-decoration: none;
+					color: white;
+					font-size: 14px;
+					margin-right: 34px;
+					font-family: 'mm';
+
+					&:hover {
+						color: $yellow;
+						font-family: 'mb';
+						margin-right: 32px;
+					}
+				}
+
+				.plus {
+					height: 22px;
+					width: 22px;
+					border-radius: 50%;
+					background-color: $yellow;
+					border: 0;
+					margin-right: 9px;
+
+					&:focus {
+						outline: 0;
+					}
+				}
+
+				.tel {
+					height: 44px;
+					width: 214px;
+					background-color: $darkblue;
+					border-color: white;
+					border-radius: 5px;
+					margin-top: -13px;
+
+					&:focus {
+						outline: 0;
+					}
+
+					img {
+						margin-right: 12px;
+					}
+
+					a {
+						color: white;
+						font-size: 14px;
+						font-family: 'mb';
+					}
+				}
+			}
+		}
+	}
+}

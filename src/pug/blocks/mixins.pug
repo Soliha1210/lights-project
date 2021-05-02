@@ -1,0 +1,42 @@
+mixin new(img='light1.png',price='21 300')
+    .col-3.col-md-6.col-xs-12 
+        .news_col
+            .news_t Вт
+            .news_img(style=`background-image: url(assets/img/${img})`)
+                //- img(src="../assets/img/"+img, alt="")
+            .news_title Дизайнерский светильник изготавливаемый по проекту
+            .news_text 
+                span
+                | Длинна до 3 метров. 
+            .news_text 
+                span
+                | Углы поворота между секторами по проекту. 
+            .news_text 
+                span
+                | Мощность рассчитывается индивидуально.
+            .news_price #{price}
+                img(src="../assets/img/rubl.svg", alt="")
+            button.detail Подробнее
+            button.plus2 
+                img(src="../assets/img/plus2.svg", alt="")
+mixin new2(img='light1.png',price='21 300')
+    .col-4.col-md-6.col-xs-12  
+        .news_col
+            .news_t Вт
+            .news_img(style=`background-image: url(assets/img/${img})`)
+                //- img(src="../assets/img/"+img, alt="")
+            .news_title Дизайнерский светильник изготавливаемый по проекту
+            .news_text 
+                span
+                | Длинна до 3 метров. 
+            .news_text 
+                span
+                | Углы поворота между секторами по проекту. 
+            .news_text 
+                span
+                | Мощность рассчитывается индивидуально.
+            .news_price #{price}
+                img(src="../assets/img/rubl.svg", alt="")
+            button.detail Подробнее
+            button.plus2 
+                img(src="../assets/img/plus2.svg", alt="")

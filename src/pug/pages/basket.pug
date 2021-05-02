@@ -1,0 +1,72 @@
+extends ../blocks/temp.pug
+
+block content
+    .basket 
+        .basket_li 
+            .container
+                .basket_menu
+                    .ul.breadcrumbs
+                        li.item: a(href="index.html").link Главная 
+                        li.item Подборка
+        .basket_top 
+            .container 
+                .basket_selection 
+                    .selection_title Подборка
+                    .selection_table
+                        table
+                            tr 
+                                th Товар
+                                th Описание
+                                th Количество
+                                th Сумма
+                                th Код: 54637654
+                            tr.tr 
+                                td 
+                                    img(src="../assets/img/s_pic.png", alt="")
+                                td Трековый светильник EVO L
+                                    .df
+                                        .td_t 50Вт <br> Серый <br> CRI/Ra 80+
+                                        .td_t2 85 <br> 3000 <br> 1672 LED
+                                td 
+                                    .btn
+                                        button.minus -
+                                        .num 0
+                                        button.plus + <br>
+                                    .text Осталось 2 шт
+                                td
+                                    .price от 3 300
+                                        img(src="../assets/img/rubl.svg", alt="")
+                                td
+                                    .del 
+                                        button.delete x
+                                        | Удалить
+                                    
+                            tr.tr 
+                                td 
+                                    img(src="../assets/img/s_pic2.png", alt="")
+                                td.td Дизайнерский светильник изготавливаемый по проекту
+                                    .td_text Длинна до 3 метров. Углы поворота между секторами по проекту. Мощность рассчитывается индивидуально.
+                                td
+                                    .btn
+                                        button.minus -
+                                        .num 0
+                                        button.plus + <br>
+                                    .text 
+                                        img(src="assets/img/check.svg", alt="")
+                                        | В наличии
+                                td
+                                    .price от 3 300
+                                        img(src="../assets/img/rubl.svg", alt="")
+                                td
+                                    .del 
+                                        button.delete x
+                                        | Удалить
+                    .selection_buy 
+                        .buy_img 
+                            img(src="../assets/img/Arrow.svg", alt="")
+                        .buy_text К покупкам
+                        .buy_all Итого: от 44 800
+                            img(src="../assets/img/rubl.svg", alt="")
+                    .selection_btn 
+                        button.button Отправить подборку на почту
+                        button.button Отправить заявку на расчет  

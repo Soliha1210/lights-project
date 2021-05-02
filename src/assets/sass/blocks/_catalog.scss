@@ -1,0 +1,149 @@
+.catalog{
+    .container{
+        .catalog_menu{
+            .breadcrumbs{
+                display: flex;
+                .item{
+                    font-size: 12px;
+                    font-family: 'mm';
+                    list-style-type: none;
+                    margin-top: 10px;
+                    color:#7C7C7C;
+                    .link{
+                    text-decoration: none;
+                    }
+                    &:after{
+                        content: '';
+                        margin-left: 4px;
+                        margin-right: 4px;
+                    }
+                } 
+            }
+        }
+        .catalog_big{
+            .catalog_bigtitle{
+                font-size: 30px;
+                font-family: 'meb';
+                margin-top: 42px;
+                color:$grey;
+            }    
+            .catalog_button{
+                .catalog_btn{
+                    width:240px;
+                    height:38px;
+                    background-color: white;
+                    border:1px solid #E5E5E5;
+                    font-size: 14px;
+                    font-family: 'mm';
+                    color:$grey;
+                    border-radius: 2px;
+                    margin-top: 22px;
+                    &:hover{
+                        background-color: $blue;
+                        color:white;
+                        transition: 0.3s;
+                    }
+                    &:focus{
+                        outline: 0;
+                    }
+                }
+                .catalog_btn2{
+                    height:38px;
+                    width:426px;
+                    margin-top: 10px;
+                    background-color: white;
+                    border:1px solid #E5E5E5;
+                    font-size: 14px;
+                    font-family: 'mm';
+                    color:$grey;
+                    border-radius: 2px;
+                    &:hover{
+                        background-color: $blue;
+                        color:white;
+                        transition: 0.3s;
+                    }
+                    &:focus{
+                        outline: 0;
+                    }
+                }
+            }           
+        }
+        .row{
+            .catalog_center--left{
+                height:413px;
+                background-color: white;
+                padding-top: 11px;
+                margin-top: 32px;
+                padding-left: 22px;
+                .left_top{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-right: 26px;
+                    .catalog_filter{
+                        font-size: 16px;
+                        font-family: 'mb';                   
+                    }
+                }
+                .left_title{
+                    font-size: 14px;
+                    font-family: 'msb';
+                    margin-top: 10px;
+                    color:$grey;
+                }
+                .left_input{
+                    margin-top: 16px;
+                    input{
+                        width:255px;
+                        background: $yellow;
+                        height:1px;
+                        -webkit-appearance: none;
+                        
+                        &:focus{
+                            outline: 0;
+                        }
+                    }   
+                    input[type=range]::-moz-range-track {
+                        background-color: $yellow;
+                        -webkit-appearance: none;
+                    }
+                    input[type=range]::-webkit-slider-thumb {
+                        -webkit-appearance: none;
+                        border-radius: 50%;
+                        height: 20px;
+                        width: 20px;
+                        max-width: 80px;
+                        position: relative;
+                        background-color: $yellow;
+                    }
+                    input[type="range"]::-moz-range-progress{
+                        background-color: $yellow;
+                    }
+                    input[type="range"]::-moz-range-track{
+                        background-color: #EAEAEA;
+                    }
+                    input[type="range"]::-ms-fill-lower{
+                        background-color: $yellow;
+                    }
+                    input[type="range"]::-ms-fill-upper{
+                        background-color: #EAEAEA;
+                    }
+                    
+                }  
+                .left_btn{
+                    width:117px;
+                    height:31px;
+                    border:1px solid #E5E5E5;
+                    background-color: white;
+                    margin-top: 30px;
+                    margin-right: 20px;
+                    border-radius: 2px;
+                    color:$grey;
+                    &:hover{
+                        background-color: $yellow;
+                    }
+                }              
+            }
+            
+        }
+    }
+}

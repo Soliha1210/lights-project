@@ -1,0 +1,52 @@
+extends ../blocks/temp.pug
+
+block content
+    .catalog 
+        .container 
+            .catalog_menu 
+                .ul.breadcrumbs
+                    li.item: a(href="index.html").link Главная
+                    li.item Каталог  
+            .catalog_big 
+                .catalog_bigtitle Каталог
+                .catalog_button 
+                    button.catalog_btn Трековые светильники
+                    button.catalog_btn Встраиваемые светильники
+                    button.catalog_btn Профильные светильники
+                    button.catalog_btn Фигурные светильники
+                    button.catalog_btn Светильники Армстронг
+                    button.catalog_btn2 Светильники Армстронг с равномерной засветкой
+            .row
+                .col-3.col-xs-12
+                    .catalog_center--left 
+                        .left_top
+                            .catalog_filter  Фильтр
+                            .catalog_filter--img 
+                                img(src="../assets/img/catlight.svg", alt="")
+                        .left_title Мощность
+                        .left_input 
+                            input(type="range")
+                        .left_title Световой поток LED
+                        .left_input 
+                            input(type="range")
+                        .left_title Угол рассеивания
+                        .left_input 
+                            input(type="range")
+                        .left_title Минимальная цена
+                        .left_input 
+                            input(type="range")
+                        button.left_btn Сбросить 
+                        button.left_btn Применить 
+                    
+                .col-9
+                    .row.wrap 
+                        +new2
+                        +new2
+                        +new2
+                        +new2
+                        +new2
+                        +new2
+                        +new2
+                        +new2
+                        +new2
+

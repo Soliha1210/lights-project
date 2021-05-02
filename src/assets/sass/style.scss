@@ -1,0 +1,73 @@
+body, * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+$black: #000;
+$blue:#3D4F64;
+$darkblue:#0C0537;
+$grey:#535353;
+$yellow:#FFC94F;
+
+@font-face {
+  font-family: 'meb';
+  src: url(..//fonts/Montserrat-ExtraBold.ttf)
+}
+
+@font-face {
+  font-family: 'mr';
+  src: url(..//fonts/Montserrat-Regular.ttf)
+}
+
+@font-face {
+  font-family: 'mm';
+  src: url(..//fonts/Montserrat-Medium.ttf)
+}
+
+@font-face {
+  font-family: 'mb';
+  src: url(..//fonts/Montserrat-Bold.ttf)
+}
+@font-face {
+  font-family: 'msb';
+  src: url(..//fonts/Montserrat-SemiBold.ttf)
+}
+@font-face {
+  font-family: 'ml';
+  src: url(..//fonts/Montserrat-Light.ttf)
+}
+
+
+body {
+  color: $black;
+  background-color: #FCFCFC;
+}
+ul.menu{
+  list-style-type: none;
+  a{
+    text-decoration: none;
+  }
+}
+
+.container {
+  max-width: 1284px; 
+  margin: auto;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/slider';
+@import 'blocks/service';
+@import 'blocks/footer';
+@import 'blocks/company';
+@import 'blocks/services';
+@import 'blocks/catalog';
+@import 'blocks/solution';
+@import 'blocks/page5';
+@import 'blocks/basket';
+@import 'blocks/delivery';
+@import 'blocks/grid';
+@import 'splide.min.scss';
+
+
+@import 'blocks/media';

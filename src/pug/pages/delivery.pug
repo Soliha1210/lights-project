@@ -1,0 +1,56 @@
+extends ../blocks/temp.pug
+
+block content 
+    .delivery 
+        .delivery_li 
+            .container
+                .delivery_menu
+                    .ul.breadcrumbs
+                        li.item: a(href="index.html").link Главная 
+                        li.item Доставка и оплата
+        .delivery_big 
+            .container 
+                .delivery_top
+                    .delivery_title Доставка и оплата
+                    .del_btn
+                        .delivery_btns
+                            button.delivery_button      Физическим лицам
+                            button.down 
+                                img(src="../assets/img/down.svg", alt="")
+                        .delivery_btns
+                            button.delivery_button Юридическим лицам
+                            button.down 
+                                img(src="../assets/img/down.svg", alt="")
+                        .delivery_btns
+                            button.delivery_button2 Бюджетным организациям
+                            button.down 
+                                img(src="../assets/img/down.svg", alt="")
+                .delivery_center 
+                    .delivery_left
+                        .delivery_center--title По Москве
+                        .delivery_center--text Доставка в течении 1 дня после подтверждения заказа. Оплата может производиться как наличными курьеру , так и путем перечисления денежных средств на счет организации с банковского счета физ. лица или через кассу любого банка.
+                        .delivery_step
+                            span.delivery_num 
+                                span.num
+                                    | 1
+                                .num_text Оформляете заявку в любой из форм на нашем сайте. Укажите телефон или адрес электронной почты для обратной связи. 
+                                    .num_tel Либо заявку можно оформить по телефону 8 495 233 55 57
+                            span.delivery_num  
+                                span.num
+                                    | 2
+                                .num_text2 Менеджер оформляет заказ,вы согласовываете порядок доставки и оплаты с ним. 
+
+                            span.delivery_num2
+                                span.num
+                                    | 3
+                                .num_text3 Получаете изделие <br> выбранным вами способом
+                    .delivery_right 
+                        .right_title В регионы
+                        .right_text Доставка через транспортные компании Деловые Линии, ПЭК, СДЭК в течении 2-7 дней с момента отправки. Возможна как адресная доставка, так и получение в пункте самовывоза в вашем городе.
+                        .right_inputs
+                            .right_input
+                                input(type="text", placeholder="Ваше имя*")
+                            .right_input
+                                input(type="text", placeholder="Ваш телефон*")   
+                            button.right--button Отправить                     
+

@@ -1,0 +1,182 @@
+extends ../blocks/temp.pug
+
+block content
+    .page 
+        .container 
+            .page_menu 
+                .ul.breadcrumbs
+                    li.item: a(href="index.html").link Главная
+                    li.item: a(href="catalog.html").link  Каталог  
+                    li.item Трековые светильники
+                    li.item EVO L
+            .page_top 
+                .page_left                        
+                    .slider.splide#secondary-slider
+                        .splide__track
+                            ul.splide__list
+                                li.page_img.splide__slide: img(src="assets/img/lamp1.png", alt="") 
+                                li.page_img.splide__slide: img(src="assets/img/lamp2.png", alt="") 
+                                li.page_img.splide__slide: img(src="assets/img/lamp3.png", alt="") 
+                                li.page_img.splide__slide: img(src="assets/img/lamp4.png", alt="") 
+                                li.page_img.splide__slide: img(src="assets/img/lamp5.png", alt="") 
+                                li.page_img.splide__slide: img(src="assets/img/lamp5.png", alt="") 
+                    .slider2.splide#primary-slider
+                        .splide__track
+                            ul.splide__list
+                                li.page_img2.splide__slide: img(src="assets/img/lamp1.png", alt="") 
+                                li.page_img2.splide__slide: img(src="assets/img/lamp2.png", alt="") 
+                                li.page_img2.splide__slide: img(src="assets/img/lamp3.png", alt="") 
+                                li.page_img2.splide__slide: img(src="assets/img/lamp4.png", alt="") 
+                                li.page_img2.splide__slide: img(src="assets/img/lamp5.png", alt="") 
+                                li.page_img2.splide__slide: img(src="assets/img/lamp5.png", alt="") 
+                .page_right
+                    .page_right--title Трековый светильник EVO L
+                    .page_right--text 
+                        .right--text Мощность
+                        .right--num 
+                            button.num 15
+                            button.num 22
+                            button.num 28
+                            button.num 42
+                            button.num 43 
+                            button.num 65
+                            button.num 66
+                            button.num 86
+                            button.num 84
+                            button.num 130
+                    .page_color 
+                        .color_text Цвет корпуса
+                        .color_button 
+                            button.button белый
+                            button.button черный
+                            button.button серый
+                    .page_txt
+                        .page-text Угол рассеивания
+                        button.num2 85
+                    .page_color 
+                        .color_text Цветовая <br> температура
+                        .color_button 
+                            button.button 3000
+                            button.button 4000
+                            button.button 5000
+                    .page_txt--cri
+                        .page-text CRI/Ra
+                        button.num2 80+
+                    button.page_btn Посмотреть  выбранные модификации
+            .page_center 
+                .center_a 
+                    a(href="").t Описание
+                    a(href="").t Техническиe характеристики                            
+                    a(href="").t Конструктивные характеристики   
+                    a(href="").t Материалы для скачивания  
+                .center_text Потолочный светильник LINE A подвесного или накладного монтажа предназначен для организации основного освещения помещений. Различные длины, мощности, варианты рассеивателей и возможности подключения к различным системам управления освещением делают светильники серии LINE A всесторонне продуманным решением для помещений любой конфигурации и функциональных назначений.Алюминиевый корпус окрашивается высококачественным матовым или глянцевым порошковым покрытием черного, белого, либо любого цвета по шкале RAL.
+                .center_title Особенности:
+                    .center_span 
+                        span 
+                        | Различные варианты рассеивателей: матовый / микропризматический / прозрачный.
+                    .center_span 
+                        span 
+                        |  Источники питания с гальвонической развязкой установлены внутри корпуса светильника;
+                    .center_span 
+                        span 
+                        | Возможность соединения последовательно для  получения сплошных линий засветки длинной до 30м.
+
+                    .center_span 
+                        span 
+                        |  Возможность декорирование под дерево и другие материалы, либо отделка деревом благородных пород
+                .center_title Области применения:
+                    .center_span 
+                        span 
+                        | Торговое освещение
+                    .center_span 
+                        span 
+                        |   Офисное освещение
+                    .center_span 
+                        span 
+                        | Обьекты бьюти индустрии
+
+                    .center_span 
+                        span 
+                        |  HoReCa - отели, рестораны, кафе
+                    .center_span 
+                        span 
+                        |  Проходные зоны любых общественных пространств
+                
+        .center_b 
+            .container
+                .center_title Выбранные модификации
+                .c_t Паказано 4 из 15
+        .page_bottom
+            .container 
+                table 
+                    tr
+                        th Наименование
+                        th Мощность
+                        th Цвет корпуса
+                        th Габариты [ВxДxШ]
+                        th Световой поток LED[лкм]
+                        th Угол рассеивания
+                        th Эфективность LW/W
+                        th Цветовая температура
+                        th CRI/Ra
+                        th Управление светом
+                        th Цена
+                        th Добавить в подборку
+                    tr.second
+                        td LINE A 50-14W-830-WH
+                        td.s_num 14
+                        td Белый
+                        td 20х15х10
+                        td 1672
+                        td 119.43
+                        td 119.43
+                        td 3000
+                        td 80+
+                        td.s_no no
+                        td 2700
+                        td 
+                            button.b +
+                    tr.second 
+                        td LINE A 50-14W-830-WH
+                        td.s_num 14
+                        td Белый
+                        td 20х15х10
+                        td 1672
+                        td 119.43
+                        td 119.43
+                        td 3000
+                        td 80+
+                        td.s_no no
+                        td 2700
+                        td 
+                            button.b +
+                    tr.second 
+                        td LINE A 50-14W-830-WH
+                        td.s_num 14
+                        td Белый
+                        td 20х15х10
+                        td 1672
+                        td 119.43
+                        td 119.43
+                        td 3000
+                        td 80+
+                        td.s_no no
+                        td 2700
+                        td 
+                            button.b +
+                    tr.second 
+                        td LINE A 50-14W-830-WH
+                        td.s_num 14
+                        td Белый
+                        td 20х15х10
+                        td 1672
+                        td 119.43
+                        td 119.43
+                        td 3000
+                        td 80+
+                        td.s_no no
+                        td 2700
+                        td 
+                            button.b +  
+                .link 
+                    a(href="") Все модификации 

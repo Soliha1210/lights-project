@@ -1,0 +1,95 @@
+.services{
+    .container{
+        .company_solutions{
+            display: flex;
+            .solution_left{
+                margin-top: 46px;
+                .solution_title{
+                    font-size: 24px;
+                    font-family: 'meb';
+                    color:$grey;
+                }
+                .solution_menu{
+                    list-style-type: none;
+                    margin-top: 35px;
+                    position: relative;
+                    
+                
+                    
+                    a{
+                        text-decoration: none;
+                        color:$grey;
+                        font-size: 14px;
+                        font-family: 'mb';
+                        border-top: 1px solid #EDEDED;            padding-bottom: 16px;
+                        padding-top: 19px;
+                        display: block;  
+                        padding-left: 21px;
+                        width:302px;
+                        
+                    
+                        &:hover{
+                            background-color: $blue;
+                            color:white;
+                            // width:302px;
+                            height:53;
+                            border-radius: 4px;
+                        }       
+                    }
+                    .l{
+                        &:after{
+                            content:'>';
+                            right:0;
+                            // margin-right: 25px;
+                            position: absolute;
+                            color:white;
+                        }
+                    }
+                }
+            }
+            .solution_right{
+                margin-top: 37px;
+                margin-left: 44px;
+                .solution_images{
+                    .img{
+                        height:316px; 
+                        width:959px; 
+                    }
+        
+                }
+                .solution_img{
+                    display: flex;
+                    padding-top:23px;
+                    .img2{
+                        height:148px;
+                        width:306px;
+                        margin-right:23px;
+                    }
+                }
+            }
+            .solution_right2{
+                margin-top: 37px;
+                margin-left: 44px;
+                display: none;
+                .solution_images{
+                    .img{
+                        height:316px; 
+                        width:959px; 
+                        background-repeat: no-repeat;
+                    }
+                }
+                .solution_img{
+                    display: flex;
+                    padding-top:23px;
+                    .img2{
+                        height:148px;
+                        width:306px;
+                        margin-right:23px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
